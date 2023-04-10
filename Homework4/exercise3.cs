@@ -11,7 +11,7 @@ namespace Homework4
 
         public void Grade()
         {
-            Console.WriteLine("Wrtie a grade from A to F: ");
+            Console.WriteLine("Wrtie a grade from A to F (Capital letters): ");
             char grade = Convert.ToChar(Console.ReadLine());
 
             switch (grade) 
